@@ -1,0 +1,41 @@
+.nav__list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: rgb(219, 206, 206);
+}
+
+.nav__item::before {
+  position: absolute;
+  top: 15px;
+  left: 55px;
+  content: "";
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  background-color: rgb(174, 158, 158);
+}
+
+@media only screen and (min-width: 400px) and (max-width: 700px) {
+  body {
+    background-color: orange;
+  }
+}
+.site-header__title--active {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: blue;
+  font-size: 16px;
+}/*# sourceMappingURL=main.css.map */
